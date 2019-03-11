@@ -36,12 +36,12 @@ function new_instance_of(leftVaule, rightVaule) {
     leftVaule = leftVaule.__proto__; // 取左表达式的__proto__值
     while (true) {
       if (leftVaule === null) {
-            return false;
-        }
-        if (leftVaule === rightProto) {
-            return true;
-        }
-        leftVaule = leftVaule.__proto__;
+          return false;
+      }
+      if (leftVaule === rightProto) {
+          return true;
+      }
+      leftVaule = leftVaule.__proto__;
     }
 }
 ```
