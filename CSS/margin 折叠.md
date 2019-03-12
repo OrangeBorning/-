@@ -2,6 +2,8 @@
 
 [margin系列之外边距折叠](http://blog.doyoe.com/2013/12/04/css/margin%E7%B3%BB%E5%88%97%E4%B9%8B%E5%A4%96%E8%BE%B9%E8%B7%9D%E6%8A%98%E5%8F%A0/)
 
+[demo](http://demo.doyoe.com/css/margin/collapse-margin.htm)
+
 外边距用来指定非浮动元素与其周围盒子边缘的最小距离。两个或两个以上的相邻的垂直外边距会被折叠并使用它们之间最大的那个外边距值。多数情况下，折叠垂直外边距可以在视觉上显得更美观，也更贴近设计师的预期。
 
 发生折叠需要是相邻的非浮动元素；
