@@ -36,3 +36,5 @@ const mapDispatchToProps = (dispatch) => {
 // If you want to use mapDispatchToProps without a mapStateToProps just use null for the first argument.
 export default connect(null, mapDispatchToProps)(UserInfo);
 ```
+
+[参考](https://segmentfault.com/a/1190000012612206)
